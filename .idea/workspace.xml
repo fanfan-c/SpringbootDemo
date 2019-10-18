@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/RestControllers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpringbootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpringbootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpringbootTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpringbootTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +70,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootTest.contextLoads">
+  <component name="RunManager" selected="Spring Boot.Entry">
+    <configuration name="SpringbootTest.RestControllerMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringbootTest" />
+      <option name="METHOD_NAME" value="RestControllerMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,8 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringbootTest.contextLoads" />
         <item itemvalue="Spring Boot.Entry" />
+        <item itemvalue="JUnit.SpringbootTest.RestControllerMethod" />
+        <item itemvalue="JUnit.SpringbootTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571358052128</updated>
-      <workItem from="1571358054050" duration="1912000" />
+      <workItem from="1571358054050" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="哈哈哈，通过登录idea的GitHub账户，成功第一次提交">
       <created>1571358530326</created>
@@ -131,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571358530326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="哈哈哈，通过登录idea的GitHub账户，成功第一次提交">
+      <created>1571360007586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571360007586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

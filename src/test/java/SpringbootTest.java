@@ -23,4 +23,10 @@ public class SpringbootTest {
         mockMvc.perform(req).andExpect(status().isOk()).andExpect(content().string(""));
         /** 第一个andExpect：表示预期。status().isOk()表示返回码是200。 content().string("")表示返回的字符串 */
     }
+    @Test
+    public void RestControllerMethod() throws Exception {
+        RequestBuilder req = get("http://localhost:8080/show/json/netease-java:");//创建一个请求,相当于在
+        mockMvc.perform(req).andExpect(status().isOk()).andExpect(content().string("{\"name\":\"netease-java\",\"value\":\"Tony\"}"));
+        /** 第一个andExpect：表示预期。status().isOk()表示返回码是200。 content().string("")表示返回的字符串 */
+    }
 }
