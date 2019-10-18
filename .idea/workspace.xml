@@ -7,12 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-core.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpringbootTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpringbootTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +47,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/IT工具包/Maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\IT工具包\Maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SM0FE67SLzeRoyMIAyl888IEhf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -56,7 +71,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571358052128</updated>
-      <workItem from="1571358054050" duration="9669000" />
+      <workItem from="1571358054050" duration="14751000" />
     </task>
     <task id="LOCAL-00001" summary="哈哈哈，通过登录idea的GitHub账户，成功第一次提交">
       <created>1571358530326</created>
@@ -166,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571364839186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="properties文件及yaml文件的使用">
+      <created>1571369434701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571369434701</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +209,7 @@
     <MESSAGE value="通过idea的第一次提交springbootdemo完整项目" />
     <MESSAGE value="哈哈哈，通过登录idea的GitHub账户，成功第一次提交" />
     <MESSAGE value="创建RestControllers,以此返回json格式字符串；&#10;自定义properties文件,通过${}使用文件配置的key-value值；" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建RestControllers,以此返回json格式字符串；&#10;自定义properties文件,通过${}使用文件配置的key-value值；" />
+    <MESSAGE value="properties文件及yaml文件的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties文件及yaml文件的使用" />
   </component>
 </project>
