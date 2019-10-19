@@ -1,55 +1,79 @@
-<configuration scan="true" scanPeriod="60 seconds" debug="false">  
-         <!-- 属性文件:在properties/yml文件中找到对应的配置项 -->
-    <springProperty scope="context" name="logging.path" source="logging.path"/>
-    <contextName>程序员小明</contextName> 
-<!--	文件输出格式-->
-	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -"/>
-<!--    test文件路径-->
-	<property name="TEST_FILE_PATH" value="D:"/>
-<!--    pro文件路径-->
-	<property name="TEST_FILE_PATH" value="/logs"/>
-<!--    开发环境-->
-    <springProfile name="dev">
-        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-            //xxxx
-            <encoder>
-                <pattern>${PATTERN}</pattern>
-            </encoder>
-        </appender>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <contextName>logback-demo</contextName>
+    <!--输出到控制台 ConsoleAppender-->
+    <appender name="consoleLog1" class="ch.qos.logback.core.ConsoleAppender">
+        <!--展示格式 layout-->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </pattern>
+        </layout>
+        <!--
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+         <level>ERROR</level>
+        </filter>
+         -->
+    </appender>
+    <!--指定最基础的日志输出级别-->
+    <root level="INFO">
+        <!--appender将会添加到这个loger-->
+        <appender-ref ref="consoleLog1"/>
+        <appender-ref ref="consoleLog2"/>
+    </root>
 
-        <logger name="com.netease.util" level="debug"/>
-        <logger name="org.springframework.jdbc.core.JdbcTemplate" level="debug">
-            //xxxx
-        </logger>
 
-        <root level="info">
-           //xxxx
-            <appender-ref ref="CONSOLE"/>
-        </root>
-    </springProfile>
 
-    <!--    测试环境-->
-    <springProfile name="test">
-<!--        每天产生一个文件-->
-        <appender name="TEST-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-            //xxxx
-<!--            文件路径-->
-            <file>${TEST-FILE_PATH}</file>
-            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy">
-<!--                文件名称-->
-                <fileNamePattern>${TEST_FILE_PATH}/info.%d{yyyy-MM-dd}.log</fileNamePattern>
-<!--                文件最大保存历史数量-->
-                <MaxHistory>100</MaxHistory>
-            </rollingPolicy>
-            <layout class="ch.qos.logback.classic.PatternLayout">
-                <pattern>${PATTERN}</pattern>
-            </layout>
-        </appender>
-        <root level="info">
-            //xxxx
-            <appender-ref ref="TEST-FILE"/>
-        </root>
-    </springProfile>
+<!--    &lt;!&ndash; 属性文件:在properties/yml文件中找到对应的配置项 &ndash;&gt;-->
+<!--    <springProfile scope="context" name="logging.path" source="logging.path"/>-->
+<!--    <contextName>程序员小明</contextName>-->
+<!--&lt;!&ndash;	文件输出格式&ndash;&gt;-->
+<!--	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -"/>-->
+<!--&lt;!&ndash;    test文件路径&ndash;&gt;-->
+<!--	<property name="TEST_FILE_PATH" value="D:"/>-->
+<!--&lt;!&ndash;    pro文件路径&ndash;&gt;-->
+<!--	<property name="TEST_FILE_PATH" value="/logs"/>-->
+<!--&lt;!&ndash;    开发环境&ndash;&gt;-->
+<!--    <springProfile name="dev">-->
+<!--        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--            //xxxx-->
+<!--            <encoder>-->
+<!--                <pattern>${PATTERN}</pattern>-->
+<!--            </encoder>-->
+<!--        </appender>-->
+
+<!--        <logger name="com.netease.util" level="debug"/>-->
+<!--        <logger name="org.springframework.jdbc.core.JdbcTemplate" level="debug">-->
+<!--            //xxxx-->
+<!--        </logger>-->
+
+<!--        <root level="info">-->
+<!--           //xxxx-->
+<!--            <appender-ref ref="CONSOLE"/>-->
+<!--        </root>-->
+<!--    </springProfile>-->
+
+<!--    &lt;!&ndash;    测试环境&ndash;&gt;-->
+<!--    <springProfile name="test">-->
+<!--&lt;!&ndash;        每天产生一个文件&ndash;&gt;-->
+<!--        <appender name="TEST-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--            //xxxx-->
+<!--&lt;!&ndash;            文件路径&ndash;&gt;-->
+<!--            <file>${TEST-FILE_PATH}</file>-->
+<!--            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy">-->
+<!--&lt;!&ndash;                文件名称&ndash;&gt;-->
+<!--                <fileNamePattern>${TEST_FILE_PATH}/info.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+<!--&lt;!&ndash;                文件最大保存历史数量&ndash;&gt;-->
+<!--                <MaxHistory>100</MaxHistory>-->
+<!--            </rollingPolicy>-->
+<!--            <layout class="ch.qos.logback.classic.PatternLayout">-->
+<!--                <pattern>${PATTERN}</pattern>-->
+<!--            </layout>-->
+<!--        </appender>-->
+<!--        <root level="info">-->
+<!--            //xxxx-->
+<!--            <appender-ref ref="TEST-FILE"/>-->
+<!--        </root>-->
+<!--    </springProfile>-->
 </configuration>
 
 

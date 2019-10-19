@@ -15,7 +15,11 @@ public class DoTraceController {
     @RequestMapping("")
     @ResponseBody
     String home() {
+        LOG.trace("---------trace------------");
+        LOG.debug("---------debug------------");
         LOG.info("这是DoTraceController test");
+        LOG.warn("---------warn------------");
+        LOG.error("---------error------------");
         return "Hello World!";
     }
 }

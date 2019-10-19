@@ -6,27 +6,37 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netease/entry/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/netease/controller/RestControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback-core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/springbootdemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" afterDir="false" />
+    <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="properties文件及yaml文件的使用">
+      <change afterPath="$PROJECT_DIR$/log/myapplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpringbootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpringbootTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback-core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +47,26 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -51,6 +77,11 @@
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -58,13 +89,21 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/IT工具包/Maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\IT工具包\Maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.3\aliyun-settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1SM0FE67SLzeRoyMIAyl888IEhf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -74,7 +113,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Deppon/ecs-parent" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -102,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.selcetName">
+  <component name="RunManager" selected="Spring Boot.Entry">
     <configuration name="RestControllerTest.RestControllerMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
       <extension name="coverage">
@@ -114,22 +153,6 @@
       <option name="PACKAGE_NAME" value="com.netease.controller" />
       <option name="MAIN_CLASS_NAME" value="com.netease.controller.RestControllerTest" />
       <option name="METHOD_NAME" value="RestControllerMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.netease.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.netease.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.netease.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springbootdemo" />
+    <configuration name="Entry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootmaster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.netease.entry.*" />
@@ -182,23 +205,22 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Entry" />
         <item itemvalue="JUnit.UserControllerTest.selcetName" />
         <item itemvalue="JUnit.RestControllerTest.RestControllerMethod" />
-        <item itemvalue="Spring Boot.Entry (1)" />
         <item itemvalue="JUnit.UserControllerTest.contextLoads3" />
-        <item itemvalue="JUnit.UserControllerTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.112491824" />
+        <option name="contentProportion" value="0.15480079" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@341c52b1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@617b7244" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -217,6 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571358052128</updated>
       <workItem from="1571358054050" duration="14751000" />
+      <workItem from="1571504057214" duration="3507000" />
     </task>
     <task id="LOCAL-00001" summary="哈哈哈，通过登录idea的GitHub账户，成功第一次提交">
       <created>1571358530326</created>
@@ -266,6 +289,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="通过idea的第一次提交springbootdemo完整项目" />
     <MESSAGE value="哈哈哈，通过登录idea的GitHub账户，成功第一次提交" />
     <MESSAGE value="创建RestControllers,以此返回json格式字符串；&#10;自定义properties文件,通过${}使用文件配置的key-value值；" />
