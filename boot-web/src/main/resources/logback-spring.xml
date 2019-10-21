@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration  scan="true" scanPeriod="60 seconds" >
+<!--    scan:当此属性设置为 true 时，配置文件如果发生改变，将会被重新加载，默认值为 true 。
+scanPeriod:设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒。当 scan 为 true 时，此属性生效。默认的时间间隔为1分钟。
+debug:当此属性设置为 true 时，将打印出 logback 内部日志信息，实时查看 logback 运行状态。默认值为 false 。-->
+
+    <!--    <include resource="org/springframework/boot/logging/logback/defaults.xml" />-->
+<!--    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}/}spring.log}"/>-->
+<!--    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />-->
+    <appender name="consoleLog1" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                <pattern>%d{HH:mm:ss.SS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </pattern>
+        </layout>
+<!--     layout 和 encoder ，都可以将事件转换为格式化后的日志记录，但是控制台输出使用 layout ，文件输出使用 encoder
+            %d{HH: mm:ss.SSS}——日志输出时间
+            %thread——输出日志的进程名字，这在Web应用以及异步任务处理中很有用
+            %-5level——日志级别，并且使用5个字符靠左对齐
+            %logger{36}——日志输出者的名字
+            %msg——日志消息
+            %n——平台的换行符
+-->
+    </appender>
+    <property name="TEST_FILE_PATH" value="classpath:"/>
+    <!-- 文件日志输出配置-->
+    <appender name="fileLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${TEST_FILE_PATH}/mylog.log</file>
+
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${TEST_FILE_PATH}/info.log</fileNamePattern>-->
+<!--        </rollingPolicy>-->
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="consoleLog1" />
+        <appender-ref ref="fileLog"/>
+    </root>
+</configuration>
+
+<!--自定义日志配置-->
+<!--Logback： logback-spring.xml, logback-spring.groovy, logback.xml, logback.groovy
+Log4j： log4j-spring.properties, log4j-spring.xml, log4j.properties, log4j.xml
+Log4j2： log4j2-spring.xml, log4j2.xml
+JDK (Java Util Logging)： logging.properties-->
+
+
+
+
+
+
+
+
+
+
+
+
+

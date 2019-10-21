@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+---
+#正常的情况是先加载yml，接下来加载properties文件。如果相同的配置存在于两个文件中。最后会使用properties中的配置。最后读取的优先集最高。
+spring:
+  profiles:
+    active: dev
+
+logging:
+  file:  my.log

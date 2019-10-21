@@ -1,0 +1,40 @@
+2019/10/21 === [main] === INFO   ===  com.netease.controller.RestControllerTest  ==  Starting RestControllerTest on MSI with PID 5652 (started by 11651 in E:\workspace\IDEA\SpringBootDemo\springbootdemo\boot-web)
+2019/10/21 === [main] === DEBUG  ===  com.netease.controller.RestControllerTest  ==  Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2019/10/21 === [main] === INFO   ===  com.netease.controller.RestControllerTest  ==  The following profiles are active: dev
+2019/10/21 === [main] === INFO   ===  org.springframework.web.context.support.GenericWebApplicationContext  ==  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a2bb0eb: startup date [Mon Oct 21 20:32:44 GMT+08:00 2019]; root of context hierarchy
+2019/10/21 === [main] === INFO   ===  com.netease.controller.RestControllerTest  ==  Started RestControllerTest in 0.696 seconds (JVM running for 2.169)
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/rest/]}" onto java.lang.String com.netease.controller.RestControllers.home()
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/rest/json/{name}]}" onto public java.util.Map<java.lang.Object, java.lang.Object> com.netease.controller.RestControllers.show(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  ==  Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6ae3fb94
+2019/10/21 === [main] === INFO   ===  org.springframework.mock.web.MockServletContext  ==  Initializing Spring FrameworkServlet ''
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization started
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization completed in 0 ms
+2019/10/21 === [main] === INFO   ===  com.netease.controller.UserControllerTest  ==  Starting UserControllerTest on MSI with PID 5652 (started by 11651 in E:\workspace\IDEA\SpringBootDemo\springbootdemo\boot-web)
+2019/10/21 === [main] === DEBUG  ===  com.netease.controller.UserControllerTest  ==  Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2019/10/21 === [main] === INFO   ===  com.netease.controller.UserControllerTest  ==  The following profiles are active: dev
+2019/10/21 === [main] === INFO   ===  org.springframework.web.context.support.GenericWebApplicationContext  ==  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37d28f02: startup date [Mon Oct 21 20:32:45 GMT+08:00 2019]; root of context hierarchy
+2019/10/21 === [main] === INFO   ===  com.netease.controller.UserControllerTest  ==  Started UserControllerTest in 0.078 seconds (JVM running for 2.558)
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/index]}" onto public java.lang.String com.netease.controller.UserController.index()
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show]}" onto public java.lang.String com.netease.controller.UserController.show(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show/{personalPath}]}" onto public java.lang.String com.netease.controller.UserController.show2(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  ==  Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@60c73e58
+2019/10/21 === [main] === INFO   ===  org.springframework.mock.web.MockServletContext  ==  Initializing Spring FrameworkServlet ''
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization started
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization completed in 0 ms
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/index]}" onto public java.lang.String com.netease.controller.UserController.index()
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show]}" onto public java.lang.String com.netease.controller.UserController.show(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show/{personalPath}]}" onto public java.lang.String com.netease.controller.UserController.show2(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  ==  Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3762c4fc
+2019/10/21 === [main] === INFO   ===  org.springframework.mock.web.MockServletContext  ==  Initializing Spring FrameworkServlet ''
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization started
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization completed in 0 ms
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/index]}" onto public java.lang.String com.netease.controller.UserController.index()
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show]}" onto public java.lang.String com.netease.controller.UserController.show(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping  ==  Mapped "{[/user/show/{personalPath}]}" onto public java.lang.String com.netease.controller.UserController.show2(java.lang.String)
+2019/10/21 === [main] === INFO   ===  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  ==  Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@1e3e1014
+2019/10/21 === [main] === INFO   ===  org.springframework.mock.web.MockServletContext  ==  Initializing Spring FrameworkServlet ''
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization started
+2019/10/21 === [main] === INFO   ===  org.springframework.test.web.servlet.TestDispatcherServlet  ==  FrameworkServlet '': initialization completed in 0 ms
+2019/10/21 === [main] === INFO   ===  com.netease.controller.UserController  ==  这是UserController Test
+2019/10/21 === [Thread-3] === INFO   ===  org.springframework.web.context.support.GenericWebApplicationContext  ==  Closing org.springframework.web.context.support.GenericWebApplicationContext@37d28f02: startup date [Mon Oct 21 20:32:45 GMT+08:00 2019]; root of context hierarchy
+2019/10/21 === [Thread-2] === INFO   ===  org.springframework.web.context.support.GenericWebApplicationContext  ==  Closing org.springframework.web.context.support.GenericWebApplicationContext@2a2bb0eb: startup date [Mon Oct 21 20:32:44 GMT+08:00 2019]; root of context hierarchy

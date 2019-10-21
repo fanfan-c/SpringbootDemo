@@ -6,37 +6,57 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="properties文件及yaml文件的使用">
-      <change afterPath="$PROJECT_DIR$/log/myapplication.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="0287cd30-d103-42b8-9906-416e203f9038" name="Default Changelist" comment="a.springboot微服务；b.">
+      <change afterPath="$PROJECT_DIR$/boot-web/log/myDev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/myDev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/myapplication.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapplication.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springbootdemo_jar/springbootdemo.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netease/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback-core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/configuration/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/configuration/JpaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/configuration/JpaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/DoTraceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/controller/DoTraceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/RestControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/controller/RestControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/entry/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/entry/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netease/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/java/com/netease/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/logback-core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/static/scripts/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/static/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/boot-web/src/main/resources/templates/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/netease/controller/RestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/netease/controller/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/configuration/JpaConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/DoTraceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/RestControllers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/entry/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/netease/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/RestControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/netease/controller/UserControllerTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +133,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Deppon/ecs-parent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-web/src/test/java" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -121,6 +141,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA\SpringBootDemo\springbootdemo\boot-web\src\test\java" />
+      <recent name="E:\workspace\IDEA\SpringBootDemo\springbootdemo\boot-web\src\main\java" />
+      <recent name="E:\workspace\IDEA\SpringBootDemo\springbootdemo\boot-web\src\main\resources" />
       <recent name="E:\Workspace\idea\springbootdemo\src\main\resources" />
     </key>
   </component>
@@ -141,7 +164,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Entry">
+  <component name="RunManager" selected="Spring Boot.Entry(boot-web)">
+    <configuration name="All in boot-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestControllerTest.RestControllerMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
       <extension name="coverage">
@@ -153,22 +184,6 @@
       <option name="PACKAGE_NAME" value="com.netease.controller" />
       <option name="MAIN_CLASS_NAME" value="com.netease.controller.RestControllerTest" />
       <option name="METHOD_NAME" value="RestControllerMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.contextLoads3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.netease.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.netease.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.netease.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="contextLoads3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springbootmaster" />
+    <configuration name="Entry(boot-web)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="boot-web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.netease.entry.*" />
@@ -199,16 +214,23 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.netease.entry.Entry" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RestControllerTest.RestControllerMethod" />
+      <item itemvalue="JUnit.UserControllerTest.selcetName" />
+      <item itemvalue="JUnit.All in boot-web" />
+      <item itemvalue="Spring Boot.Entry(boot-web)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Entry" />
+        <item itemvalue="Spring Boot.Entry(boot-web)" />
+        <item itemvalue="JUnit.All in boot-web" />
         <item itemvalue="JUnit.UserControllerTest.selcetName" />
         <item itemvalue="JUnit.RestControllerTest.RestControllerMethod" />
-        <item itemvalue="JUnit.UserControllerTest.contextLoads3" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +242,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@617b7244" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@674f31a6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
